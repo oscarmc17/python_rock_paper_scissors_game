@@ -16,15 +16,18 @@ print(f"\nYou chose {user_input}, computer chose {computer_option}.\n")
 
 if user_input == computer_option:
     print(f"Both players selected {user_input}. It's a tie!")
-elif user_input == "Rock":
-    if computer_option == "Paper":
+elif user_input == "rock":
+    if computer_option == "scissors":
         print("Rock smashes scissors! You win!")
     else:
         print("Paper covers rock! You lose.")
-elif user_input == "Paper":
-    if computer_option == "Rock":
+elif user_input == "paper":
+    if computer_option == "rock":
         print("Paper convers rock! You win.")
     else:
         print("Scissors cuts paper! You lose.")
-else:
-    pass
+elif user_input == "Scissors":
+    if computer_option == "paper":
+        print("Scissors cuts paper! You win!")
+    else:
+        print("Rock smashes scissors! You lose.")
