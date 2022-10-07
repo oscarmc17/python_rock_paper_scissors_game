@@ -2,7 +2,7 @@ import random
 
 computer_score = 0
 user_score = 0
-i = 0
+i = 1
 chance = int(input("How manys time you want to play (no. of chances)?: "))
 
 while i <= chance:
